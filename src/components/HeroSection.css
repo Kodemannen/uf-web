@@ -20,8 +20,23 @@ video {
 .hero-text {
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
+    max-width: 1200px;
     font-weight: normal;
     color: #fff;
     opacity: 0.5;
-    /* padding-top: 150px; */
+    /* padding-top: 220px; */
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        /* font-family: "Times New Roman", Times, serif; */
+        font-size: 25px; /* max-width: 1200px; */
+        width: 400px;
+        /* width: max-width; */
+        /* max-width: 800px; */
+        /* font-weight: normal; */
+        /* color: #fff; */
+        /* opacity: 0.5; */
+        /* padding-top: 150px; */
+    }
 }
