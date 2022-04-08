@@ -1,7 +1,10 @@
 import React from 'react'
 import './HeroSection.css' 
 
-// const Claim = () => "Urban Farms are transforming the Norwegian pak choi industry by combining autonomous biosystems with the latest in photon generating technology"
+// media query for tilpasning til mindre skjerm (mobile)
+
+
+
 const Claim = () => {
   return (
     <p className="hero-text" style={{textAlign: "center", padding: "120px"}} >
@@ -29,11 +32,3 @@ const HeroSection = () => {
 
 export default HeroSection
 
-// Produced right here in the city
-//
-// Urban Farms are transforming the Norwegian pak choi industry by combining 
-// autonomous hydrocarbon-synthesizing biosystems with the latest in photon generating technology
-              // Urban Farms are transforming the Norwegian pak choi industry by combining 
-              // autonomous hydrocarbon-synthesizing biosystems with the latest in photon 
-              // generating technology
-// Disrupting the Norwegian food industry by fusing semi-autonomous hydroponic biosystems with the latest in photon generating technology
