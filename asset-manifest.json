@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/uf-web/static/css/main.90c2baac.css",
+    "main.js": "/uf-web/static/js/main.8c2bb062.js",
+    "static/media/vid.mp4": "/uf-web/static/media/vid.7cbcd5f6c42fa71c7b2a.mp4",
+    "index.html": "/uf-web/index.html",
+    "main.90c2baac.css.map": "/uf-web/static/css/main.90c2baac.css.map",
+    "main.8c2bb062.js.map": "/uf-web/static/js/main.8c2bb062.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c2baac.css",
+    "static/js/main.8c2bb062.js"
+  ]
+}
