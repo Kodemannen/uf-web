@@ -1,0 +1,126 @@
+
+/* 
+Here we set styling that will override Reactstrap
+
+As of now we have two types of buttons for two different contexts:
+
+    - Primary button: 
+        - For dark background 
+        - Transparent with white border
+
+    - Secondary button: 
+        - For white background 
+        - Argeo Blue, but with 0.5 opacity 
+
+
+I feel that the looks of the two buttons aren't fully consistent, but I think I have spent 
+enough time on it now, so I will leave it like this for the time being.
+
+ */
+
+/* This is needed override that blue square appearing onclick */
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    background-color: transparent;
+    box-shadow: 0 0 0 0 #fff;
+}
+
+/*
+  ____       _                            
+ |  _ \ _ __(_)_ __ ___   __ _ _ __ _   _ 
+ | |_) | '__| | '_ ` _ \ / _` | '__| | | |
+ |  __/| |  | | | | | | | (_| | |  | |_| |
+ |_|   |_|  |_|_| |_| |_|\__,_|_|   \__, |
+  _           _   _                 |___/ 
+ | |__  _   _| |_| |_ ___  _ __  
+ | '_ \| | | | __| __/ _ \| '_ \ 
+ | |_) | |_| | |_| || (_) | | | |
+ |_.__/ \__,_|\__|\__\___/|_| |_|
+
+ * On dark background
+*/
+
+.btn-primary {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-color: white;
+    border-radius: 0px;
+    width: 110px;
+    opacity: 0.85;
+	box-shadow: 0 0 0 0 #fff;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: white;
+	box-shadow: 0 0 0 0 #fff;
+}
+
+.btn-primary:focus {                  
+    background-color: transparent;
+    box-shadow: 0 0 0 0 #fff;
+
+}
+
+.btn-primary:active {                  
+    background-color: transparent;
+    box-shadow: 0 0 0 0 #fff;
+}
+
+
+
+
+/*
+  ____                           _                  
+ / ___|  ___  ___ ___  _ __   __| | __ _ _ __ _   _ 
+ \___ \ / _ \/ __/ _ \| '_ \ / _` |/ _` | '__| | | |
+  ___) |  __/ (_| (_) | | | | (_| | (_| | |  | |_| |
+ |____/ \___|\___\___/|_| |_|\__,_|\__,_|_|   \__, |
+  _           _   _                           |___/ 
+ | |__  _   _| |_| |_ ___  _ __  
+ | '_ \| | | | __| __/ _ \| '_ \ 
+ | |_) | |_| | |_| || (_) | | | |
+ |_.__/ \__,_|\__|\__\___/|_| |_|
+                                 
+ * On white background
+*/
+
+
+.btn-secondary {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a0c2d;
+    background-color: #1a0c2d;
+    color: #fff;
+    border-radius: 0px;
+    width: 110px;
+    opacity: 0.5;
+}
+
+
+/*
+  ____                      _                     
+ |  _ \ _ __ ___  _ __   __| | _____      ___ __  
+ | | | | '__/ _ \| '_ \ / _` |/ _ \ \ /\ / / '_ \ 
+ | |_| | | | (_) | |_) | (_| | (_) \ V  V /| | | |
+ |____/|_|  \___/| .__/ \__,_|\___/ \_/\_/ |_| |_|
+                 |_|                              
+*/
+
+.dropdown {
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-item {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border-color: #fff;
+    text-align: center;
+    color: #fff;
+}
+
