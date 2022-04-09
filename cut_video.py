@@ -12,13 +12,11 @@ start = 60*3 + 2.85
 end = start + 7.0
 clip = mpe.VideoFileClip(pathOriginal).subclip(start,end)
 
-# clip.fadeout(2,final_color="black")
 
-# mp.video.fx.all.fadeout(clip, duration=2, final_color=[0,0,0])
-# clip.fadeout(duration=2, final_color=[0,0,0])
+# Add fading:
 clip = clip.fadein(duration=1, initial_color=[0,0,0])
 clip = clip.fadeout(duration=1, final_color=[0,0,0])
-# clip.fadein(duration=2, 0)
+
 
 clip.write_videofile("src/media/videos/vid.mp4")
 

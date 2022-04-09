@@ -16,7 +16,7 @@ const HeroSection = () => {
 
     const videoRef = useRef();
     const setPlayBack = () => {
-      videoRef.current.playbackRate = 0.8;
+      videoRef.current.playbackRate = 4.99;
     };
 
     return (
