@@ -9,7 +9,6 @@ import '../App.css';
 
 
 
-
 const height = "250px"
 const padding = "80px"
 
@@ -62,6 +61,7 @@ function Footer({children}) {
     </div>
   );
 }
+
 
 export default Footer;
 //
