@@ -14,13 +14,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 
+
 // bruk react router for å lage flere sider
 
 function App() {
   return (
     <>
       <Navbar />
-        <Home />
+      <Home />
       <Footer />
     </>
   );

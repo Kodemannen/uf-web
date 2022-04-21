@@ -3,52 +3,93 @@ import React, {useState} from 'react';
 
 import "./Navbar.css";
 
-import { Navbar, 
+import { Nav, 
+         Navbar, 
          NavbarBrand, 
          NavLink,
+         Container,
+         Row,
+         Col,
+         NavItem,
          DropdownToggle,
          DropdownMenu,
          DropdownItem,
          Dropdown} from 'reactstrap';
 
-
-const NavbarFunc = () => {
+const NavbarFunc = (props) => {
 
     // const [isOpen, setIsOpen] = useState(false);
-    
+    const style={color: "black", opacity: 0.65, }
 
     return (
-        <Navbar dark expand="md">
-            <NavbarBrand  className="logo" >
-              <h5 style={{color: "black", opacity: 0.65}}>
-                Urban Farms
-              </h5>
-            </NavbarBrand >
+      <Navbar dark expand="md">
+          <NavbarBrand  href="/"  style={style} className="logo" >
+              Urban Farms
+          </NavbarBrand >
 
-      {/*<NavLink>
-                Home
-            </NavLink>*/}
-                
-        {/*<Dropdown isOpen={isOpen} toggle={() => setIsOpen(!isOpen)} tag="div">
-                <DropdownToggle tag="div">
-                    <i className="fas fa-bars fa-2x"></i>
-                </DropdownToggle>
-                <DropdownMenu >
-                    <DropdownItem >
-                        <div>
-                            {"About"}
-                        </div>
-                    </DropdownItem >
-                    <DropdownItem >
-                        <div>
-                            {"Contact"}
-                        </div>
-                    </DropdownItem >
+          <Nav>
 
-                </DropdownMenu>
-            </Dropdown> */}
-        </Navbar>
+            <Row>
+              <Col>
+              <NavItem>
+                <NavLink href="/about" className="navLink">
+                  About
+                </NavLink>
+              </NavItem>
+              </Col>
+
+              <Col>
+              <NavItem>
+                <NavLink href="/products" className="navLink">
+                  Products
+                </NavLink>
+              </NavItem>
+              </Col>
+            </Row>
+
+
+          </Nav>
+
+      </Navbar>
+
     );
 
 }
+
 export default NavbarFunc
+
+
+
+
+// const NavbarFunc = (props) => {
+
+//     // const [isOpen, setIsOpen] = useState(false);
+//     const style={color: "black", opacity: 0.65, }
+
+//     return (
+//         <Navbar dark expand="md">
+//           <NavbarBrand  style={style} className="logo" >
+//               Urban Farms
+//           </NavbarBrand >
+
+//           <Container fluid="md" >
+//             <Row >
+//               <Col >
+//                 <NavLink style={style} >
+//                   About
+//                 </NavLink>
+//               </Col >
+//               <Col >
+//                 <NavLink style={style} >
+//                   Order
+//                 </NavLink>
+//               </Col>
+//             </Row>
+//           </Container>
+                
+//         </Navbar>
+//     );
+
+// }
+
+// export default NavbarFunc

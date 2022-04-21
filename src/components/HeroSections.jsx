@@ -29,7 +29,7 @@ const HeroSection = () => {
           style={{
             opacity: "0.5", 
           }}
-          src={require('./../media/videos/vid.mp4')} autoPlay loop muted 
+          src={require('./../media/videos/vid.mp4')} loop muted //autoPlay 
           type="video/mp4"
         />
 
