@@ -9,8 +9,8 @@ import '../App.css';
 
 
 
-const height = "250px"
-const padding = "80px"
+const height = "200px"
+const padding = "50px"
 
 var style = {
   backgroundColor: "#fff",
