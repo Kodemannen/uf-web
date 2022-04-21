@@ -8,13 +8,13 @@ import { Nav,
          NavbarBrand, 
          NavLink,
          Container,
-         Row,
-         Col,
          NavItem,
-         DropdownToggle,
-         DropdownMenu,
-         DropdownItem,
-         Dropdown} from 'reactstrap';
+         } from 'reactstrap';
+
+import {  
+  Outlet,
+  Link
+} from "react-router-dom";
 
 const NavbarFunc = (props) => {
 
@@ -22,41 +22,49 @@ const NavbarFunc = (props) => {
     const style={color: "black", opacity: 0.65, }
 
     return (
+      <>
       <Navbar dark expand="md">
           <NavbarBrand  href="/"  style={style} className="logo" >
-              Urban Farms
+            Urban Farms
           </NavbarBrand >
 
           <Nav>
-
-            <Row>
-              <Col>
-              <NavItem>
-                <NavLink href="/about" className="navLink">
-                  About
-                </NavLink>
-              </NavItem>
-              </Col>
-
-              <Col>
-              <NavItem>
-                <NavLink href="/products" className="navLink">
-                  Products
-                </NavLink>
-              </NavItem>
-              </Col>
-            </Row>
-
-
+            <NavItem>
+              <NavLink href="/about" className="navLink">
+                About
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/products" className="navLink">
+                Products
+              </NavLink>
+            </NavItem>
           </Nav>
 
       </Navbar>
-
+      <Outlet />
+      </>
     );
 
 }
 
 export default NavbarFunc
+
+
+
+// import { Nav, 
+//          Navbar, 
+//          NavbarBrand, 
+//          NavLink,
+//          Container,
+//          Row,
+//          Col,
+//          NavItem,
+//          DropdownToggle,
+//          DropdownMenu,
+//          DropdownItem,
+//          Dropdown} from 'reactstrap';
+
 
 
 

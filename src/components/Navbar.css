@@ -1,12 +1,15 @@
 .navbar {
-    position: absolute;
-    width: 100%;
     background-color: #fff;
 }
 
-.navLink {
+.navLink{
     color: black;
     opacity: 0.65;
+}
+
+.navLink:hover{
+    color: black;
+    opacity: 0.5;
 }
 
 
