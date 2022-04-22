@@ -18,19 +18,21 @@ clip = mpe.VideoFileClip(pathOriginal).subclip(start,end)
 # shape = (1920, 1080)
 dimx, dimy = clip.size
 
-cropx = 0
-cropy = 120
 
-clip = vfx.crop(clip, 
-                x1=cropx, 
-                y1=cropy, 
-                x2=dimx - cropx, 
-                y2=dimy - cropy)
 
+
+# cropx = 0
+# cropy = 120
+# clip = vfx.crop(clip, 
+#                 x1=cropx, 
+#                 y1=cropy, 
+#                 x2=dimx - cropx, 
+#                 y2=dimy - cropy)
 
 
 # clip = vfx.blackwhite(clip)
-# clip = clip.fx(vfx.blackwhite)
+
+
 
 # clip = vfx.resize(clip, newsize=0.85)
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 
+import Colors from './Colors.jsx';
 
 // From stackoverflow:
 // Include a phantom div in your footer component that 
@@ -9,16 +10,19 @@ import '../App.css';
 
 
 
-const height = "250px"
-const padding = "80px"
+const height = "200px"
+const padding = "50px"
+
+
 
 var style = {
   backgroundColor: "#fff",
+  color: Colors.c2,
   // backgroundColor: "#F8F8F8",
   // borderTop: "0px solid #E7E7E7",
   textAlign: "center",
   padding: padding,
-  position: "fixed",
+  // position: "fixed",
   left: "0",
   bottom: "0",
   height: height,
@@ -49,18 +53,27 @@ const FooterContent = () => {
 
 
 
-
 function Footer({children}) {
   return (
     <div >
-        <div style={phantom} />
         <div style={style}>
-          { children }
           <FooterContent />
         </div>
     </div>
   );
 }
+
+// function Footer({children}) {
+//   return (
+//     <div >
+//         <div style={phantom} />
+//         <div style={style}>
+//           { children }
+//           <FooterContent />
+//         </div>
+//     </div>
+//   );
+// }
 
 
 export default Footer;
