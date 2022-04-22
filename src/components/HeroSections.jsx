@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import './HeroSection.css' 
 
+import Colors from './Colors.jsx';
+
 // media query for tilpasning til mindre skjerm (mobile)
 
 
@@ -20,18 +22,20 @@ const HeroSection = () => {
     };
 
     return (
-      <div className='hero-container'>
+      <div 
+        className='hero-container' 
+        style={{background: Colors.c2}}>
 
-        <Claim />
-        <video 
-          ref={videoRef}
-          onCanPlay={() => setPlayBack()}
-          style={{
-            opacity: "0.5", 
-          }}
-          src={require('./../media/videos/vid.mp4')} autoPlay loop muted 
-          type="video/mp4"
-        />
+          <Claim />
+          <video 
+            ref={videoRef}
+            onCanPlay={() => setPlayBack()}
+            style={{
+              opacity: "0.5", 
+            }}
+            src={require('./../media/videos/vid.mp4')} autoPlay loop muted 
+            type="video/mp4"
+          />
 
       </div>
     )

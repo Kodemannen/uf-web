@@ -17,7 +17,11 @@ import {
 
 function About() {
 
-  const cardTitleStyle = {color: "white", opacity: "0.65", textAlign: "justify"}
+  const cardTitleStyle = {color: "white", 
+                          opacity: "0.65", 
+                          textAlign: "justify"}
+
+  const cardBodyStyle = {maxWidth: "950px", margin: "auto"};
 
   const imgStyle = { opacity: "0.65", 
                      marginLeft: "20px", 
@@ -27,11 +31,12 @@ function About() {
                      height: "auto", 
                     }
 
+  
 
   const AboutUsCard = () => {
     return (
       <Card outline style={{background: Colors.c2}}>
-        <CardBody >
+        <CardBody style={cardBodyStyle} >
           <Row>
           <Col>
             <CardTitle style={cardTitleStyle} tag="h5">
@@ -58,7 +63,7 @@ function About() {
   const AboutBjornCard = () => {
     return (
       <Card outline style={{background: Colors.c3}} >
-        <CardBody >
+        <CardBody style={cardBodyStyle} >
           <Row>
           <Col>
             <img 
@@ -87,7 +92,7 @@ function About() {
   const AboutSebCard = () => {
     return (
       <Card outline style={{background: Colors.c2}}>
-        <CardBody >
+        <CardBody style={cardBodyStyle} >
           <Row>
           <Col>
             <CardTitle style={cardTitleStyle} tag="h5">
@@ -114,7 +119,7 @@ function About() {
   const AboutGunnarCard = () => {
     return (
       <Card outline style={{background: Colors.c3}}>
-        <CardBody >
+        <CardBody style={cardBodyStyle} >
           <Row>
           <Col>
             <img 
@@ -140,7 +145,7 @@ function About() {
   const AboutSamuelCard = () => {
     return (
       <Card outline style={{background: Colors.c2}}>
-        <CardBody >
+        <CardBody style={cardBodyStyle} >
           <Row>
           <Col>
             <CardTitle style={cardTitleStyle} tag="h5">
