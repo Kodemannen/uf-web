@@ -25,7 +25,7 @@ const NavbarFunc = (props) => {
 
     return (
       <>
-      <Navbar sticky="top" dark expand="md">
+      <Navbar sticky="top" >
           <NavbarBrand  href="/"  style={style} className="logo" >
             Urban Farms
           </NavbarBrand >

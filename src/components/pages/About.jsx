@@ -99,7 +99,9 @@ function About() {
               Chief Economist - Sebastian Gregorius Winther-Larsen, PhD Dr.
             </CardTitle>
             <CardText style={{color: "white", opacity: "0.65"}}>
-              This guy has half a masters degree for each of his four names.
+              This guy has half a masters degree for each of his four names plus one PhD Dr. 
+               <i> (philosophiae dropout)</i> degree from the University of Oslo
+
             </CardText>
           </Col>
           <Col>
@@ -133,7 +135,7 @@ function About() {
               CTO - Gunnar Thorsen Liahjelm
             </CardTitle>
             <CardText style={{color: "white", opacity: "0.65"}}>
-              This guy has almost one masters degree
+              This guy has almost one masters degree despite being only 27 years old
             </CardText>
           </Col>
           </Row>
@@ -149,10 +151,11 @@ function About() {
           <Row>
           <Col>
             <CardTitle style={cardTitleStyle} tag="h5">
-              Head of Security - Samuel Knudsen, PhD Dr.
+              Chief Digitalization Agent - Samuel Knudsen
             </CardTitle>
             <CardText style={{color: "white", opacity: "0.65"}}>
-              One masters, one PhD dropout degree
+              One masters, and a PhD Dr. 
+              <i> (philosophiae dropout)</i> degree from the University of Oslo
             </CardText>
           </Col>
           <Col>
