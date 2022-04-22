@@ -1,19 +1,20 @@
 
-import React from 'react';
+import React, { useRef } from 'react'
 import '../../App.css';
+
+// import img from './../../media/images/trestk.jpg'
 
 import { 
   Card,
-  CardTitle,
   CardText,
   Row,
   Col,
+  CardTitle,
   CardBody,
-  CardSubtitle,
-  Button,
 } from 'reactstrap';
 
 function About() {
+
   return (
       <Card outline className="cardBody" >
 
@@ -25,7 +26,7 @@ function About() {
               About
             </CardTitle>
             <CardText style={{color: "white", opacity: "0.65"}}>
-              We are a collection of STEM trained individuals working
+              We are a collection of STEM oriented individuals working
               on improving the food security of our future.
             </CardText>
           </Col>
