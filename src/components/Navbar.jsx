@@ -23,7 +23,7 @@ const NavbarFunc = (props) => {
 
     return (
       <>
-      <Navbar dark expand="md">
+      <Navbar sticky="top" dark expand="md">
           <NavbarBrand  href="/"  style={style} className="logo" >
             Urban Farms
           </NavbarBrand >

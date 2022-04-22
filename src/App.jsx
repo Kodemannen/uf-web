@@ -21,7 +21,11 @@ import {
   Route,
 } from "react-router-dom";
 
-
+// #EFD0CA Misty Rose
+// #C1BCAC Pale Silver
+// #979B8D Artichoke
+// #6a87c4 Fern Green
+// #214E34 Brunswick Green
 
 function App() {
   
