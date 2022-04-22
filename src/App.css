@@ -1,7 +1,7 @@
 
 .page {
-    /* max-width: 1050px; */
-    /* margin: auto; */
+    max-width: 1050px;
+    margin: auto;
 }
 
 
@@ -23,8 +23,8 @@
 
 .navbar {
     background-color: #fff;
-    /* max-width: 1050px; */
-    /* margin: auto; */
+    max-width: 1050px;
+    margin: auto;
     /* display: flex; */
     /* position: fixed; */
 }

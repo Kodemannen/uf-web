@@ -21,7 +21,6 @@ import {
   Route,
 } from "react-router-dom";
 
-
 function App() {
   
   return (
@@ -46,5 +45,30 @@ function App() {
     </>
   )
 }
+
+// function App() {
+  
+//   return (
+//     <>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path="/" element={<Navbar />}>
+//             <Route index element={<Home />} />
+//             <Route 
+//               path="About"
+//               element={<About />}
+//             />
+//             <Route 
+//               path="Products"
+//               element={<Products />}
+//             />
+
+//           </Route>
+//         </Routes>
+//       </BrowserRouter>
+//       <Footer />
+//     </>
+//   )
+// }
 
 export default App;
