@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 
+import Colors from './Colors.jsx';
 
 // From stackoverflow:
 // Include a phantom div in your footer component that 
@@ -12,8 +13,11 @@ import '../App.css';
 const height = "200px"
 const padding = "50px"
 
+
+
 var style = {
   backgroundColor: "#fff",
+  color: Colors.c2,
   // backgroundColor: "#F8F8F8",
   // borderTop: "0px solid #E7E7E7",
   textAlign: "center",

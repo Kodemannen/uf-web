@@ -1,7 +1,8 @@
 
 import React, {useState} from 'react';
 
-import "./Navbar.css";
+import "./../App.css";
+import Colors from './Colors.jsx';
 
 import { Nav, 
          Navbar, 
@@ -19,7 +20,8 @@ import {
 const NavbarFunc = (props) => {
 
     // const [isOpen, setIsOpen] = useState(false);
-    const style={color: "black", opacity: 0.65, }
+    // const style={color: "black", opacity: 0.65, }
+    const style={color: Colors.c2, }
 
     return (
       <>
@@ -30,12 +32,12 @@ const NavbarFunc = (props) => {
 
           <Nav>
             <NavItem>
-              <NavLink href="/about" className="navLink">
+              <NavLink style={style} href="/about" className="navLink">
                 About
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/products" className="navLink">
+              <NavLink style={style} href="/products" className="navLink">
                 Products
               </NavLink>
             </NavItem>
