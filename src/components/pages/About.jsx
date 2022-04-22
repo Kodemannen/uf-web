@@ -1,43 +1,54 @@
 
-import React from 'react';
+import React, { useRef } from 'react'
 import '../../App.css';
+
+// import img from './../../media/images/trestk.jpg'
 
 import { 
   Card,
-  CardTitle,
   CardText,
+  CardTitle,
   CardBody,
-  CardSubtitle,
-  Button,
+  Row,
+  Col,
 } from 'reactstrap';
 
 function About() {
+
   return (
     <div className="page">
 
       <Card outline className="cardBody" >
 
         <CardBody >
-          <CardTitle style={{textAlign: "center"}} tag="h5">
-          </CardTitle>
-          <CardSubtitle
-            className="mb-2 text-muted"
-            tag="h6"
-          >
-          </CardSubtitle>
+          <Row>
 
-          <CardText style={{color: "white", opacity: "0.65"}}>
-            We are a collection of STEM oriented individuals who want
-            to help improving the future of local food security.
-          </CardText>
+          <Col>
+            <CardTitle style={{color: "white", opacity: "0.65"}} tag="h5">
+              About
+            </CardTitle>
+            <CardText style={{color: "white", opacity: "0.65"}}>
+              We are a collection of STEM oriented individuals working
+              on improving the food security of our future.
+            </CardText>
+          </Col>
+          <Col>
+            
+            <img 
+              style={{
+                opacity: "0.65", 
+                marginLeft: "20px", 
+                marginRight: "0px", 
+                borderRadius: "4px", 
+                width: "400px", 
+                height: "auto", 
+              }}
+              src={require('./../../media/images/trestk.jpg')} 
+              type="image/jpg"
+            />
+          </Col>
+          </Row>
         </CardBody>
-        <image 
-          style={{
-            opacity: "0.65", 
-          }}
-          src={require('./../../media/images/trestk.jpg')} 
-          type="image/jpg"
-        />
 
       </Card>
       
