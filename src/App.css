@@ -1,5 +1,5 @@
 .page {
-    background: grey;
+    background: transparent;
     /* background: url('../images/img-home.jpg') center center/cover no-repeat; */
     height: 100%;
     width: 100%;
@@ -12,5 +12,30 @@
 
 .card {
     border-radius: 0px;
-    background: purple;
+    border-color: transparent;
+    /* background:  #452a5c; */
+    padding: 30px;
+    /* color: white; */
+    /* opacity: 0.80; */
+    /* font-family: "Times New Roman", Times, serif; */
+    /* border: 3px solid #452a5c; */
+    background: linear-gradient(40deg, rgba(101,121,155,1) 0%, rgba(40,17,70,1) 100%);
+}
+
+
+.cardSmall {
+    /* background:  #452a5c; */
+    /* padding: 70px; */
+    /* color: black; */
+    /* opacity: 0.80; */
+    /* font-family: "Times New Roman", Times, serif; */
+    /* background: #aebfbe; */
+    /* display: flex; */
+    /* width: 100%; */ 
+    /* border: 3px solid  #c5d1db; */
+    /* border-radius: 9px; */ 
+}
+
+.greyColor {
+    color: blue;
 }
