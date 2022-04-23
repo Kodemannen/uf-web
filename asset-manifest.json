@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uf-web/static/css/main.e52d9f54.css",
-    "main.js": "/uf-web/static/js/main.c363f8e5.js",
+    "main.js": "/uf-web/static/js/main.cf488731.js",
     "static/media/vid.mp4": "/uf-web/static/media/vid.3ccedb4a9e37e5830962.mp4",
     "static/media/gunnarsykkel.jpg": "/uf-web/static/media/gunnarsykkel.eb55eba77cbf410a3071.jpg",
     "static/media/trestk.jpg": "/uf-web/static/media/trestk.b46935e992ad721c4755.jpg",
@@ -10,10 +10,10 @@
     "static/media/samuel.jpg": "/uf-web/static/media/samuel.b8d3799a758ff9438471.jpg",
     "index.html": "/uf-web/index.html",
     "main.e52d9f54.css.map": "/uf-web/static/css/main.e52d9f54.css.map",
-    "main.c363f8e5.js.map": "/uf-web/static/js/main.c363f8e5.js.map"
+    "main.cf488731.js.map": "/uf-web/static/js/main.cf488731.js.map"
   },
   "entrypoints": [
     "static/css/main.e52d9f54.css",
-    "static/js/main.c363f8e5.js"
+    "static/js/main.cf488731.js"
   ]
 }
