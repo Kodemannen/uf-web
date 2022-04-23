@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/uf-web/static/css/main.ffefb0a5.css",
-    "main.js": "/uf-web/static/js/main.eefbd2cd.js",
-    "static/media/vid.mp4": "/uf-web/static/media/vid.3ccedb4a9e37e5830962.mp4",
-    "static/media/gunnarsykkel.jpg": "/uf-web/static/media/gunnarsykkel.eb55eba77cbf410a3071.jpg",
-    "static/media/trestk.jpg": "/uf-web/static/media/trestk.b46935e992ad721c4755.jpg",
-    "static/media/bjorn.jpg": "/uf-web/static/media/bjorn.dec9a1b4835af3f83dbd.jpg",
-    "static/media/seb.jpg": "/uf-web/static/media/seb.bda52ec848369f8a046c.jpg",
-    "static/media/samuel.jpg": "/uf-web/static/media/samuel.b8d3799a758ff9438471.jpg",
-    "index.html": "/uf-web/index.html",
-    "main.ffefb0a5.css.map": "/uf-web/static/css/main.ffefb0a5.css.map",
-    "main.eefbd2cd.js.map": "/uf-web/static/js/main.eefbd2cd.js.map"
+    "main.css": "/static/css/main.e52d9f54.css",
+    "main.js": "/static/js/main.d94812f9.js",
+    "static/media/vid.mp4": "/static/media/vid.3ccedb4a9e37e5830962.mp4",
+    "static/media/gunnarsykkel.jpg": "/static/media/gunnarsykkel.eb55eba77cbf410a3071.jpg",
+    "static/media/trestk.jpg": "/static/media/trestk.b46935e992ad721c4755.jpg",
+    "static/media/bjorn.jpg": "/static/media/bjorn.dec9a1b4835af3f83dbd.jpg",
+    "static/media/seb.jpg": "/static/media/seb.bda52ec848369f8a046c.jpg",
+    "static/media/samuel.jpg": "/static/media/samuel.b8d3799a758ff9438471.jpg",
+    "index.html": "/index.html",
+    "main.e52d9f54.css.map": "/static/css/main.e52d9f54.css.map",
+    "main.d94812f9.js.map": "/static/js/main.d94812f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffefb0a5.css",
-    "static/js/main.eefbd2cd.js"
+    "static/css/main.e52d9f54.css",
+    "static/js/main.d94812f9.js"
   ]
 }
