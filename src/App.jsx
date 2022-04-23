@@ -27,10 +27,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navbar />}>
+          <Route path="/uf-web" element={<Navbar />}>
             <Route index element={<Home />} />
             <Route 
-              path="About"
+              path="/uf-web/about"
               element={<About />}
             />
             {/*<Route 

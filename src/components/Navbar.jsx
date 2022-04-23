@@ -26,13 +26,13 @@ const NavbarFunc = (props) => {
     return (
       <>
       <Navbar sticky="top" >
-          <NavbarBrand  href="/"  style={style} className="logo" >
+          <NavbarBrand  href="/uf-web"  style={style} className="logo" >
             Urban Farms
           </NavbarBrand >
 
           <Nav>
             <NavItem>
-              <NavLink style={style} href="/about" className="navLink">
+              <NavLink style={style} href="/uf-web/about" className="navLink">
                 About
               </NavLink>
             </NavItem>
