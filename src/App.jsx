@@ -16,7 +16,7 @@ import Products from './components/pages/Products';
 
 
 import {  
-  BrowserRouter, 
+  HashRouter, 
   Routes, 
   Route,
 } from "react-router-dom";
@@ -25,12 +25,12 @@ function App() {
   
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="/uf-web" element={<Navbar />}>
+          <Route path="/" element={<Navbar />}>
             <Route index element={<Home />} />
             <Route 
-              path="/uf-web/about"
+              path="/about"
               element={<About />}
             />
             {/*<Route 
@@ -40,7 +40,7 @@ function App() {
 
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   )
