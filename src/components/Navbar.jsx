@@ -37,7 +37,7 @@ const NavbarFunc = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={style} href="/products" className="navLink">
+              <NavLink disabled style={style} href="/products" className="navLink">
                 Products
               </NavLink>
             </NavItem>

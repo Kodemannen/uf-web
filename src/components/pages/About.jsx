@@ -23,13 +23,15 @@ function About() {
 
   const cardBodyStyle = {maxWidth: "950px", margin: "auto"};
 
-  const imgStyle = { opacity: "0.65", 
-                     marginLeft: "20px", 
-                     marginRight: "0px", 
-                     borderRadius: "4px", 
-                     width: "400px", 
-                     height: "auto", 
-                    }
+  const imgStyle = { }
+
+  // const imgStyle = { opacity: "0.65", 
+  //                    marginLeft: "20px", 
+  //                    marginRight: "0px", 
+  //                    borderRadius: "4px", 
+  //                    width: "400px", 
+  //                    height: "auto", 
+  //                   }
 
   
 
@@ -49,7 +51,7 @@ function About() {
           </Col>
           <Col>
             <img 
-              style={imgStyle}
+              className="cardPics"
               src={require('./../../media/images/trestk.jpg')} 
               type="image/jpg"
             />
@@ -67,6 +69,7 @@ function About() {
           <Row>
           <Col>
             <img 
+              className={"cardPics"}
               style={imgStyle}
               src={require('./../../media/images/bjorn.jpg')} 
               type="image/jpg"
@@ -106,6 +109,7 @@ function About() {
           </Col>
           <Col>
             <img 
+              className="cardPics"
               style={{...imgStyle}}
               src={require('./../../media/images/seb.jpg')} 
               type="image/jpg"
@@ -125,6 +129,7 @@ function About() {
           <Row>
           <Col>
             <img 
+              className="cardPics"
               style={{...imgStyle}}
               src={require('./../../media/images/gunnarsykkel.jpg')} 
               type="image/jpg"
@@ -160,6 +165,7 @@ function About() {
           </Col>
           <Col>
             <img 
+              className="cardPics"
               style={{...imgStyle}}
               src={require('./../../media/images/samuel.jpg')} 
               type="image/jpg"

@@ -1,35 +1,35 @@
 
 .page {
-    /* max-width: 950px; */
-    /* margin: auto; */
 }
 
 
 .card {
     border-radius: 0px;
-    /* border-color: black; */
-    /* background:  #452a5c; */
     padding: 30px;
-    /* color: white; */
-    /* opacity: 0.80; */
-    /* font-family: "Times New Roman", Times, serif; */
-    /* border: 3px solid #452a5c; */
     /* background: linear-gradient(40deg, rgba(101,121,155,1) 0%, rgba(40,17,70,1) 100%); */
-    /* background:  rgba(40,17,70,1); */
-    /* background: #5C7457; */
-    /* background: white; */
+}
+
+.cardPics {
+
+    opacity: 0.65; 
+    margin-left: 20px; 
+    margin-right: 0px; 
+    border-radius: 4px; 
+    width: 400px; 
+    height: auto; 
+}
+
+@media (max-width: 768px) {
+    .cardPics {
+        width: 300px; 
+        padding-top: 30px; 
+        padding-bottom: 30px; 
+    }
 }
 
 
 .navbar {
     background-color: #fff;
-    /* max-width: 950px; */
-    /* margin: auto; */
-    /* display: flex; */
-    /* position: fixed; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
 }
 
 /* .navLink{ */

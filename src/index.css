@@ -1,9 +1,17 @@
 
 html,body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  
+
+  margin: auto;
+  max-width: 950px;
+
+  background: #b0aea7;
+  opacity: 0.9999;
+
 }
 
 body {
@@ -18,11 +26,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
 }
 
 #root {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }

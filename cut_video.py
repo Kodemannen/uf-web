@@ -34,7 +34,7 @@ dimx, dimy = clip.size
 
 
 
-# clip = vfx.resize(clip, newsize=0.85)
+# clip = vfx.resize(clip, newsize=0.75)
 
 # wtf = np.pi / 2
 

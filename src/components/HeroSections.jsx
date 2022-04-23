@@ -32,6 +32,7 @@ const HeroSection = () => {
             onCanPlay={() => setPlayBack()}
             style={{
               opacity: "0.5", 
+              maxWidth: "950px",
             }}
             src={require('./../media/videos/vid.mp4')} autoPlay loop muted 
             type="video/mp4"

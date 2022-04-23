@@ -33,10 +33,10 @@ function App() {
               path="About"
               element={<About />}
             />
-            <Route 
+            {/*<Route 
               path="Products"
               element={<Products />}
-            />
+            />*/}
 
           </Route>
         </Routes>
