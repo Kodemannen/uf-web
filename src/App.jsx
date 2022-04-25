@@ -1,11 +1,7 @@
-
 import React, {useState} from 'react';
-// import Navbar from './components/Navbar'
-// import { BrowserRouter as Router } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -27,7 +23,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/uf-web/" element={<Navbar />}>
+          <Route path="/uf-web" element={<Navbar />}>
             <Route index element={<Home />} />
             <Route 
               path="/uf-web/about"
@@ -46,29 +42,5 @@ function App() {
   )
 }
 
-// function App() {
-  
-//   return (
-//     <>
-//       <BrowserRouter>
-//         <Routes>
-//           <Route path="/" element={<Navbar />}>
-//             <Route index element={<Home />} />
-//             <Route 
-//               path="About"
-//               element={<About />}
-//             />
-//             <Route 
-//               path="Products"
-//               element={<Products />}
-//             />
-
-//           </Route>
-//         </Routes>
-//       </BrowserRouter>
-//       <Footer />
-//     </>
-//   )
-// }
 
 export default App;
